@@ -112,23 +112,20 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+                  "url(https://i.ibb.co/8Pt9PRq/Screen-Shot-2020-06-20-at-8-37-01-AM.png) center / cover",
               }}
             >
-              React Project #1
+              Guess The Lyric
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              My first group project with my colleague, Michael Becker. We
+              created an app where you guess the lyrics to Today's Top Hits
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
 
           {/* Project 2 */}
@@ -138,25 +135,24 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+                  "url(https://i.ibb.co/yBSgs5B/Screen-Shot-2020-06-20-at-8-41-32-AM.png) center / cover",
               }}
             >
-              React Project #2
+              TrackSnax
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              In the light of a pandemic, with my colleagues, Martin Funches and
+              Emanuil Vartanyan; we created an app that allows you to track your
+              essentials and keep you up to day on statistics.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
           {/* Project 3 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
@@ -164,18 +160,18 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
+                  "url(https://i.ibb.co/7jvBGXg/Screen-Shot-2020-06-20-at-8-50-18-AM.png) center / cover",
               }}
             >
-              React Project #3
+              Planthood
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              For my final project, my team and I created a Plant app that
+              allows you to view plant care details, and assign another user to
+              "plant"-sit some of your plants.
             </CardText>
             <CardActions border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
@@ -195,8 +191,8 @@ class Projects extends Component {
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>Coding Projects</Tab>
-          <Tab>Illustrators</Tab>
+          <Tab>Assignments</Tab>
+          <Tab>Group Projects</Tab>
         </Tabs>
 
         <Grid>
